@@ -1,0 +1,16 @@
+{
+  "name": "fhir-sdk-codegen",
+  "version": "1.0.0",
+  "description": "Package generator for FHIR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "gen:typescript": "node index.js"
+  },
+  "keywords": [],
+  "author": "Adam Bradford <abradford@redventures.com>",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "quicktype": "^15.0.174"
+  }
+}
